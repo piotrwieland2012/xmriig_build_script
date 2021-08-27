@@ -14,3 +14,4 @@ cd scripts
 cd ../build
 cmake .. -DXMRIG_DEPS=scripts/deps
 make -j$(nproc)
+cd ..
